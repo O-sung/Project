@@ -1,0 +1,162 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight 
+Default: 400
+
+- Line heights
+Default: 1
+
+--- 02 COLORS
+- Primary: #fcc419    
+- Tints: #fab005
+- Shades:
+- Accents:
+- Greys: #555  
+
+--- 07 WHITESPACE
+- Space system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ***********************FIRST SECTION IN HEADER*********************** */
+header {
+    max-width: 130rem;
+}
+
+.top {
+    border-bottom: 1px solid #868e96;
+    height: 2.6rem;
+}
+
+.social-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 5rem 1rem 5rem;
+}
+
+.social-icons {
+    font-size: 1.6rem;
+    fill: #868e96;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* .icons a:link,
+.icons a:visited {} */
+
+.contacts-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.4rem;
+    color: #9a9b9c;
+}
+
+.con-icon {
+    font-size: 1.6rem;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    height: 10rem;
+    position: sticky;
+}
+
+.logo img {
+    height: 5rem;
+    width: 10rem;
+    align-self: center;
+    margin-top: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-btn {
+    color: #212529;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05rem;
+    font-size: 1.6rem;
+}
+
+.sash {
+    font-size: 1.6rem;
+}
+
+.nav-btn:link,
+.nav-btn:visited {
+    color: #212529;
+    font-weight: 600;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+    color: #fab005;
+    text-decoration: none;
+}
+
+.car-img {
+    max-width: 105rem;
+    max-height: 50rem;
+    background-color: linear-gradient(#5e5c5c, #555151);
+}
+
+/* *********************ABOUT OUR COMPANY SECTION****************** */
+.about {
+    margin: 7rem 5rem 0;
+}
+
+.main-about-heading {
+    margin-bottom: 3rem;
+}
+
+.main-about-heading h2 {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.about-contents {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.about-img-text {
+    max-width: 20rem;
+}
+
+.about-img img {
+    width: 25rem;
+    height: 15rem;
+}
