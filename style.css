@@ -34,6 +34,7 @@ html {
 
 body {
     font-family: sans-serif;
+    line-height: 1;
 }
 
 a {
@@ -148,15 +149,36 @@ header {
 
 .about-contents {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
+    gap: 5rem;
 }
 
 .about-img-text {
-    max-width: 20rem;
+    max-width: 38rem;
+    /* padding: 0 2.5rem; */
 }
 
 .about-img img {
-    width: 25rem;
-    height: 15rem;
+    width: 28rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+}
+
+.head h4 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.about-text {
+    max-width: 32rem;
+}
+
+.about-text p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #868e96;
+    font-weight: 100;
+    letter-spacing: 1;
 }
