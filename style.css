@@ -37,7 +37,13 @@ body {
     line-height: 1;
 }
 
-a {
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
     text-decoration: none;
 }
 
@@ -135,7 +141,8 @@ header {
 
 /* *********************ABOUT OUR COMPANY SECTION****************** */
 .about {
-    margin: 7rem 5rem 0;
+    margin: 7rem 5rem 5rem;
+    padding-bottom: 5rem;
 }
 
 .main-about-heading {
@@ -172,6 +179,7 @@ header {
 
 .about-text {
     max-width: 32rem;
+    margin-bottom: 3rem;
 }
 
 .about-text p {
@@ -181,4 +189,26 @@ header {
     color: #868e96;
     font-weight: 100;
     letter-spacing: 1;
+}
+
+.btn-about:link,
+.btn-about:visited {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: #fcc419;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.btn-about:hover,
+.btn-about:active {
+    background-color: #fab005;
+}
+
+/* **********************WHAT WE DO SECTION********************* */
+.cards {
+    background-color: #e4ecf1;
+    padding: 0 5rem;
 }
