@@ -418,3 +418,18 @@ header {
     font-weight: 700;
     color: #b0b5b8;
 }
+
+/* *****************************FOOTER*************************** */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.foot-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comp-desc {
+    max-width: 40rem;
+}
