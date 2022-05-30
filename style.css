@@ -133,25 +133,28 @@ header {
     text-decoration: none;
 }
 
+/* ************************CAROUSEL SECTION******************* */
+.carousel {
+    max-width: 130rem;
+}
+
 .car-img {
-    max-width: 105rem;
+    max-width: 130rem;
     max-height: 50rem;
     background-color: linear-gradient(#5e5c5c, #555151);
 }
 
 /* *********************ABOUT OUR COMPANY SECTION****************** */
 .about {
+    max-width: 130rem;
     margin: 7rem 5rem 5rem;
     padding-bottom: 5rem;
-}
-
-.main-about-heading {
-    margin-bottom: 3rem;
 }
 
 .main-about-heading h2 {
     font-weight: 700;
     font-size: 2.8rem;
+    margin-bottom: 3rem;
 }
 
 .about-contents {
@@ -162,7 +165,7 @@ header {
 }
 
 .about-img-text {
-    max-width: 38rem;
+    /* max-width: 38rem; */
     /* padding: 0 2.5rem; */
 }
 
@@ -209,22 +212,68 @@ header {
 
 /* **********************WHAT WE DO SECTION********************* */
 .cards {
+    max-width: 130rem;
     background-color: #e4ecf1;
     padding: 5rem 5rem;
 }
 
+.cards-heading h2 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 5rem;
+}
+
+.reside {
+    max-width: 20rem;
+}
+
 .cards-contents {
+    max-width: 120rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
+}
+
+.card {
+    text-align: center;
+    padding: 3rem;
 }
 
 .card-img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+    margin-bottom: 2rem;
 }
 
-card-text {
-    text-align: center;
+.card-head {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    letter-spacing: 1.9;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #868e96;
+    font-weight: 100;
+    letter-spacing: 1;
+}
+
+.btn-card:link,
+.btn-card:visited {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: #fcc419;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.btn-card:hover,
+.btn-card:active {
+    background-color: #fab005;
 }
