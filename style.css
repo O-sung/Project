@@ -22,34 +22,17 @@ Default: 1
 */
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: sans-serif;
-    line-height: 1;
-}
-
-a:link,
-a:visited {
-    text-decoration: none;
-}
-
-a:hover,
-a:active {
-    text-decoration: none;
-}
-
 /* ***********************FIRST SECTION IN HEADER*********************** */
 header {
     max-width: 130rem;
+    /* top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: #fff; */
+}
+
+main {
+    position: relative;
 }
 
 .top {
@@ -113,7 +96,6 @@ header {
     align-items: center;
     padding: 0 5rem;
     height: 10rem;
-    position: sticky;
 }
 
 .logo img {

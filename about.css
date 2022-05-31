@@ -1,0 +1,15 @@
+/* .about {
+    display: flex;
+} */
+
+.about-headings {
+    display: flex;
+}
+
+.about-contents {
+    display: flex;
+}
+
+.content img {
+    max-width: 50%;
+}
