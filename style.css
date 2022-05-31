@@ -68,6 +68,14 @@ header {
     border-radius: 100%;
 }
 
+.icon:hover,
+.icon:active {
+    color: #fff;
+    padding: .5rem;
+    background-color: #f03e3e;
+    border-radius: 100%;
+}
+
 .social-contacts {
     display: flex;
     justify-content: space-between;
