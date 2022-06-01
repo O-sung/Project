@@ -106,7 +106,7 @@
 }
 
 
-@media (max-width:350px) {
+@media (max-width:750px) {
 
     .contacts-list {
         display: flex;
