@@ -36,6 +36,12 @@
         font-size: 50% !important;
     }
 
+    .logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 4rem;
+    }
+
     .social-icons {
         display: none !important;
     }
@@ -66,10 +72,21 @@
         gap: 2rem !important;
     }
 
-    .logos {
-        display: grid;
-        grid-template-columns: 1fr 1fr !important;
-        gap: 4rem;
+    .foot-headings {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 23rem; */
+        align-items: center;
+        margin: 0 5rem 2rem;
+        font-weight: 900;
+    }
+
+    .foot-content {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 3rem;
+        margin: 0 5rem 5rem;
+        font-size: 1.6rem;
     }
 
 }
