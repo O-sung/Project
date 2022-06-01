@@ -24,6 +24,10 @@ Default: 1
 
 /* ***********************FIRST SECTION IN HEADER*********************** */
 
+header {
+    max-width: 110rem;
+}
+
 main {
     position: relative;
 }
@@ -84,17 +88,18 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5rem;
-    height: 10rem;
+    /* padding: 0 5rem; */
+    /* height: 10rem; */
 }
 
-.main-nav {
+/* .main-nav {
     display: flex;
-}
+    max-width: 110rem;
+} */
 
-.logo img {
+.logo {
     height: 5rem;
-    width: 10rem;
+    width: 100%;
     align-self: center;
     margin-top: 0;
 }
@@ -130,6 +135,9 @@ main {
 }
 
 /* ************************CAROUSEL SECTION******************* */
+.carousel {
+    max-width: 110rem;
+}
 
 .car-img {
     max-width: 100vw;
@@ -139,7 +147,7 @@ main {
 
 /* *********************ABOUT OUR COMPANY SECTION****************** */
 .about {
-    /* max-width: 130rem; */
+    max-width: 110rem;
     margin: 5rem 5rem 5rem;
     padding-bottom: 5rem;
 }
@@ -157,9 +165,9 @@ main {
     gap: 5rem;
 }
 
-.about-img img {
-    width: 28rem;
-    height: 18rem;
+.about-img {
+    width: 100;
+    /* height: 18rem; */
     margin-bottom: 2rem;
 }
 
@@ -200,7 +208,7 @@ main {
 
 /* **********************WHAT WE DO SECTION********************* */
 .cards {
-    /* max-width: 130rem; */
+    max-width: 110rem;
     background-color: #f2f7fa;
     padding: 8rem 5rem;
 }
@@ -265,7 +273,7 @@ main {
 
 /* ***********************PROJECT SECTION************************ */
 .project {
-    /* max-width: 130rem; */
+    max-width: 110rem;
     padding: 7rem 5rem;
     background-image: linear-gradient(#00000093, #0000008f), url(img/bg.jpg);
     background-size: 100% 100%;
@@ -294,6 +302,7 @@ main {
 
 /* **************************CORE TEAM SECTION************************ */
 .core {
+    max-width: 110rem;
     border: 0.3rem solid red;
 }
 
@@ -303,7 +312,7 @@ main {
 
 /* ************************JOIN OUR TEAM SECTION************************** */
 .join {
-    /* max-width: 130rem; */
+    max-width: 110rem;
     padding: 7rem 5rem;
     margin: 0 0 7rem 0;
     background-image: linear-gradient(#00000093, #0000008f), url(img/b-g.jpg);
@@ -332,8 +341,11 @@ main {
 }
 
 /* *****************************TESTIMONIAL SECTION*********************** */
+.testimonials {
+    max-width: 110rem;
+}
+
 .testimonial-heading {
-    /* max-width: 130rem; */
     margin: 5rem 5rem 5rem;
     /* in case positioning the arrows becomes difficult, it would be from here */
 }
@@ -410,7 +422,7 @@ main {
 
 /* *****************************FOOTER*************************** */
 footer {
-    /* max-width: 130rem; */
+    max-width: 110rem;
     background-color: #1a1919;
     color: #fff;
     padding-top: 5rem;
@@ -424,44 +436,4 @@ footer a:visited {
 footer a:hover,
 footer a:active {
     color: #f03e3e;
-}
-
-.foot-headings {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 23rem;
-    align-items: center;
-    margin: 0 5rem 2rem;
-    font-weight: 900;
-}
-
-.foot-content {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    /* gap: 3rem; */
-    margin: 0 5rem 5rem;
-    font-size: 1.6rem;
-}
-
-.foott {
-    max-width: 25rem;
-    line-height: 1.5;
-    color: #868e96;
-}
-
-.foott h6 {
-    color: #fff;
-    font-size: 1.4rem;
-}
-
-.foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* margin: 0 5rem; */
-    padding: 2rem 5rem 3rem 5rem;
-    padding-bottom: 0;
-    background-color: #252525;
-    font-size: 1.2rem;
 }

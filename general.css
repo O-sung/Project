@@ -25,17 +25,40 @@ a:active {
 
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
 
 
 /* ***********************FIRST SECTION IN HEADER*********************** */
-/*header {
+header {
     max-width: 130rem;
 }
 
 .top {
     border-bottom: 0.1rem solid #868e96;
-    /* padding-bottom: .1rem; */
+    padding-bottom: .1rem;
 }
 
 .contact {
@@ -152,44 +175,15 @@ footer a:active {
     color: #f03e3e;
 }
 
-.foot-headings {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 23rem;
-    align-items: center;
-    margin: 0 5rem 2rem;
-    font-weight: 900;
-}
-
 .foot-content {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    /* gap: 3rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
     margin: 0 5rem 5rem;
-    font-size: 1.6rem;
 }
 
-.foott {
-    max-width: 25rem;
-    line-height: 1.5;
-    color: #868e96;
-}
 
-.foott h6 {
-    color: #fff;
+.foot-content p {
     font-size: 1.4rem;
 }
-
-.foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* margin: 0 5rem; */
-    padding: 2rem 5rem 3rem 5rem;
-    padding-bottom: 0;
-    background-color: #252525;
-    font-size: 1.2rem;
-}
-
-*/
