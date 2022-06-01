@@ -58,11 +58,24 @@
         max-width: 70rem;
     }
 
+    .main-about-heading {
+        text-align: center;
+    }
+
     .about-contents {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 5rem;
+        display: block;
+        /* gap: 5rem; */
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 18rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-text {
+        /* max-width: 32rem; */
+        margin-bottom: 2rem;
     }
 
     .cards-contents {
@@ -83,7 +96,7 @@
 
     .foot-content {
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         gap: 3rem;
         margin: 0 5rem 5rem;
         font-size: 1.6rem;
