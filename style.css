@@ -23,13 +23,6 @@ Default: 1
 
 
 /* ***********************FIRST SECTION IN HEADER*********************** */
-/* header {
-    max-width: 130rem;
-    top: 0;
-    z-index: 1;
-    position: sticky;
-    background-color: #fff;
-} */
 
 main {
     position: relative;
@@ -73,9 +66,6 @@ main {
     gap: 2rem;
     align-items: center;
 }
-
-/* .icons a:link,
-.icons a:visited {} */
 
 .contacts-list {
     align-self: center;
@@ -140,9 +130,6 @@ main {
 }
 
 /* ************************CAROUSEL SECTION******************* */
-/* .carousel {
-    max-width: 130rem;
-} */
 
 .car-img {
     max-width: 100vw;
@@ -152,7 +139,7 @@ main {
 
 /* *********************ABOUT OUR COMPANY SECTION****************** */
 .about {
-    max-width: 130rem;
+    /* max-width: 130rem; */
     margin: 5rem 5rem 5rem;
     padding-bottom: 5rem;
 }
@@ -169,11 +156,6 @@ main {
     justify-content: space-between;
     gap: 5rem;
 }
-
-/* .about-img-text {
-    max-width: 38rem;
- padding: 0 2.5rem;
-} */
 
 .about-img img {
     width: 28rem;
