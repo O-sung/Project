@@ -40,6 +40,14 @@
         display: none !important;
     }
 
+    .contacts-list {
+        align-self: center;
+        display: flex;
+        list-style: none;
+        gap: 4rem;
+        color: #9a9b9c;
+    }
+
     .about {
         max-width: 70rem;
     }
