@@ -30,7 +30,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     html {
         font-size: 50% !important;
@@ -38,6 +38,10 @@
 
     .social-icons {
         display: none !important;
+    }
+
+    .about {
+        max-width: 70rem;
     }
 
     .about-contents {
