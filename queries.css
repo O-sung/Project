@@ -178,7 +178,10 @@
     .about-contents {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+    }
+
+    .about-img-text {
+        margin-bottom: 2rem;
     }
 
     .pj p {
