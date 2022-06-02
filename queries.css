@@ -98,7 +98,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 44em) {
 
     html {
         font-size: 56.25% !important;
@@ -166,7 +166,7 @@
 }
 
 
-@media (max-width:46.875em) {
+@media (max-width:47em) {
 
     .contacts-list {
         display: flex;
@@ -198,6 +198,12 @@
     .testimonial-cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonial-heading {
+        text-align: center;
     }
 
     .logos {
