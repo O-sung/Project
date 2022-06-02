@@ -180,6 +180,13 @@
         flex-direction: column;
     }
 
+    .pj p {
+        font-size: 1.4rem !important;
+    }
+
+    .join-text p {
+        line-height: 1.5 !important;
+    }
 
     .cards-contents {
 
