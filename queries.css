@@ -1,43 +1,43 @@
 @media (min-width: 75em) {
 
     header {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .main-nav {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .carousel {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .about {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .cards {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .project {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .core {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .join {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     .testimonials {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
     footer {
-        max-width: 200rem;
+        max-width: 200rem !important;
     }
 
 }
