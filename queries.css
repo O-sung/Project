@@ -1,5 +1,9 @@
 @media (min-width: 75em) {
 
+    html {
+        font-size: 93.75% !important;
+    }
+
     header {
         max-width: 200rem !important;
     }
@@ -169,10 +173,11 @@
 @media (max-width:47em) {
 
     .contacts-list {
-        display: flex;
+        /* display: flex; */
         flex-direction: column !important;
         text-align: center;
-        gap: 1em;
+        /* gap: 1em; */
+
     }
 
     .about-contents {
@@ -223,9 +228,9 @@
         gap: 2rem !important;
     }
 
-    .foot-content {
-        text-align: center;
-        display: grid;
+    .foot {
+        /* text-align: center; */
+        display: grid !important;
         grid-template-columns: 1fr !important;
         align-items: center;
         gap: 3rem;
